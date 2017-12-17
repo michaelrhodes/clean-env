@@ -1,0 +1,7 @@
+{
+  "name": "clean-env",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Michael Rhodes",
+  "license": "MIT"
+}
