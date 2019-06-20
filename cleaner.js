@@ -13,7 +13,7 @@ function cleaner (env, keep) {
 
     var kv = line.split('=')
     var key = kv[0].trim()
-    var val = kv[1].trim()
+    var val = kv.slice(1).join('=').trim()
     if (!key) return
 
     if (key === 'CLEAN_ENV_KEEP') {
